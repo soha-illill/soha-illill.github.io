@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Magazine</title>
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+
+        a {
+            color: #e91e63;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 2em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            margin-bottom: 0.2em;
+        }
+
+        header p {
+            font-size: 1.1em;
+            font-weight: 300;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 2em 0;
+        }
+
+        /* Section title */
+        .section-title {
+            font-size: 2em;
+            color: #555;
+            margin: 1em 0;
+            text-align: center;
+        }
+
+        /* Article grid */
+        .articles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5em;
+            justify-content: center;
+        }
+
+        .article {
+            background-color: #fff;
+            width: 100%;
+            max-width: 320px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .article:hover {
+            transform: translateY(-5px);
+        }
+
+        .article img {
+            width: 100%;
+            height: auto;
+        }
+
+        .article-content {
+            padding: 1.5em;
+        }
+
+        .article h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 0.5em;
+        }
+
+        .article p {
+            color: #666;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+            margin-top: 2em;
+        }
+
+        footer p {
+            font-size: 0.9em;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Fashion Magazine</h1>
+        <p>Your daily dose of style, beauty, and the latest fashion trends</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section>
+            <h2 class="section-title">Latest Trends</h2>
+
+            <div class="articles">
+                <!-- Article 1 -->
+                <div class="article">
+                    <img src="fashion1.jpeg" alt="Street Style Inspiration">
+                    <div class="article-content">
+                        <h2>Street Style Inspiration</h2>
+                        <p>Discover bold fashion choices and unique looks that define modern street style.</p>
+                    </div>
+                </div>
+
+                <!-- Article 2 -->
+                <div class="article">
+                    <img src="fashion2.jpeg" alt="Season's Best Outfits">
+                    <div class="article-content">
+                        <h2>Season's Best Outfits</h2>
+                        <p>Explore the best outfit combinations for every season, from cozy layers to vibrant colors.</p>
+                    </div>
+                </div>
+
+                <!-- Article 3 -->
+                <div class="article">
+                    <img src="fashion3.jpeg" alt="Accessories That Pop">
+                    <div class="article-content">
+                        <h2>Accessories That Pop</h2>
+                        <p>Make your outfits stand out with these must-have accessories that add the perfect finishing touch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Fashion Magazine. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
